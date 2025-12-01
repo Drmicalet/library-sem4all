@@ -1,0 +1,25 @@
+Package: sem4all
+Title: Unified Structural Equation Modeling Framework
+Version: 0.1.0
+Authors@R: c(
+  person("Miguel", "Mayol-Tur", email = "m00mayoltur@gmail.com", role = c("aut", "cre"))
+)
+Description: A unified framework for structural equation modeling that integrates multiple 
+  methodologies (GSCA, PLS-SEM, CB-SEM) with AI-driven discovery capabilities. 
+  Provides advanced features including Ridge/Elastic Net regularization, 
+  Mahalanobis outlier detection, and automated model discovery.
+Depends: R (>= 3.5.0)
+Imports: 
+    gsca4all,
+    openxlsx,
+    e1071,
+    methods,
+    stats,
+    utils
+Suggests: 
+    knitr,
+    rmarkdown,
+    testthat
+License: GPL-3
+Encoding: UTF-8
+RoxygenNote: 7.2.3
